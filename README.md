@@ -5,3 +5,5 @@
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets
 ```
+
+> 直接替换文件即可，替换完（或者git pull），需要重启xcode，才能生效。
