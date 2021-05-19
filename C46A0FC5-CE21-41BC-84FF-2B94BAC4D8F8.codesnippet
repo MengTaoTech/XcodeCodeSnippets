@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>create_collectionView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    lazy private var collectionView: UICollectionView = {
+        let latout = UICollectionViewFlowLayout()
+        let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: latout)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        // register
+        return collectionView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C46A0FC5-CE21-41BC-84FF-2B94BAC4D8F8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CollectionView Create</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
